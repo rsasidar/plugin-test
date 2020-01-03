@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/devopsfaith/krakend-martian/register"
-	"github.com/kpacha/martian-components/body/elastic-search/modifier"
+	"github.com/rsasidar/plugin-test/body/elastic-search/modifier"
 )
 
 func init() {

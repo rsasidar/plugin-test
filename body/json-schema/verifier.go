@@ -4,7 +4,7 @@ package json_schema
 
 import (
 	"github.com/google/martian/parse"
-	"github.com/kpacha/martian-components/body/json-schema/verifier"
+	"github.com/rsasidar/plugin-test/body/json-schema/verifier"
 )
 
 func init() {

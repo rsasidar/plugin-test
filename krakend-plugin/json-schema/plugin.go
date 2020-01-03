@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/devopsfaith/krakend-martian/register"
-	"github.com/kpacha/martian-components/body/json-schema/verifier"
+	"github.com/rsasidar/plugin-test/body/json-schema/verifier"
 )
 
 func init() {

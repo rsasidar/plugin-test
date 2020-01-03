@@ -4,7 +4,7 @@ package elastic
 
 import (
 	"github.com/google/martian/parse"
-	"github.com/kpacha/martian-components/body/elastic-search/modifier"
+	"github.com/rsasidar/plugin-test/body/elastic-search/modifier"
 )
 
 func init() {

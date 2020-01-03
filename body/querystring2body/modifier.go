@@ -4,7 +4,7 @@ package querystring2body
 
 import (
 	"github.com/google/martian/parse"
-	"github.com/kpacha/martian-components/body/querystring2body/modifier"
+	"github.com/rsasidar/plugin-test/body/querystring2body/modifier"
 )
 
 func init() {

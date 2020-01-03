@@ -3,7 +3,7 @@ package host
 
 import (
 	"github.com/google/martian/parse"
-	"github.com/kpacha/martian-components/header/host/modifier"
+	"github.com/rsasidar/plugin-test/header/host/modifier"
 )
 
 func init() {
