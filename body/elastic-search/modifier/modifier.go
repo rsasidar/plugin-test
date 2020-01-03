@@ -39,6 +39,7 @@ func (m *ESQueryModifier) ModifyRequest(req *http.Request) error {
 	req.Body.Close()
 
 	req.Header.Set("Content-Type", "application/json; charset=UTF-8")
+        req.Header.Set("tid", "100")
 	req.Method = http.MethodPost
 	req.ContentLength = int64(len(data))
 	req.Body = ioutil.NopCloser(bytes.NewReader(data))
